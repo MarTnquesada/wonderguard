@@ -1,3 +1,3 @@
-'''Calculation of different metrics''''
+'''Calculation of different metrics'''
 
 import math

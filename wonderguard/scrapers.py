@@ -1,9 +1,8 @@
 '''Pulls information from the smogon/stats webpage'''
-
+from model import PokemonMonthData
 import requests
 import json
 import datetime
-from model import PokemonMonthData
 
 base_url = 'https://www.smogon.com/stats/'
 now = datetime.datetime.now()
@@ -61,4 +60,3 @@ if __name__ == "__main__":
 
 
 
-    

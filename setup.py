@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
-
-
 with open('README.rst') as f:
     readme = f.read()
 
@@ -15,7 +13,7 @@ setup(
     description='Competitive pokemon analysis tool',
     long_description=readme,
     author='Martin Quesada Zaragoza',
-    author_email='devilukelele@gmain.com',
+    author_email='devilukelele@gmail.com',
     url='https://github.com/martnquesada/wonderguard',
     license=license,
     packages=find_packages(exclude=('tests'))
